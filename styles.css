@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav {
+  /* Add your navigation styles here */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  height: 400px; /* Adjust the height as needed */
+  background-image: url('path-to-your-banner-image.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+}
+
+.course-details {
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.image-gallery {
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+
+.image-item {
+  margin-bottom: 2rem;
+}
+
+.image-item img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}

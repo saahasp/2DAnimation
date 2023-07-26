@@ -1,15 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const scrollButton = document.getElementById('scrollButton');
-
-  // Add click event listener to the button
-  scrollButton.addEventListener('click', function() {
-    const content = document.getElementById('content');
+  function smoothScrollTo(element) {
     const scrollOptions = {
-      top: content.offsetTop, // Get the top position of the content
-      behavior: 'smooth'      // Enable smooth scrolling
+      top: element.offsetTop,
+      behavior: 'smooth'
     };
-
-    // Perform the smooth scrolling
     window.scrollTo(scrollOptions);
+  }
+
+  const links = document.querySelectorAll('a[href^="#"]');
+
+  links.forEach(link => {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      const targetId = link.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      smoothScrollTo(targetElement);
+    });
   });
 });

@@ -1,52 +1,19 @@
-/* Reset some default styles */
-body, h1, h2, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
+/* ... other styles ... */
 
 body {
   font-family: Arial, sans-serif;
+  color: #333; /* Change the main text color to a darker shade */
 }
 
-header {
-  background-color: #333;
-  padding: 1rem;
-}
-
-nav {
-  /* Add your navigation styles here */
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin-right: 1rem;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
+/* ... other styles ... */
 
 .banner {
-  height: 400px; /* Adjust the height as needed */
-  background-image: url('path-to-your-banner-image.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.banner-content {
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  color: white;
+  /* ... other styles ... */
+  color: white; /* Set the text color to white */
 }
 
 .course-details {
-  background-color: #f0f0f0;
+  background-color: #f9f9f9; /* Light gray background for the course details section */
   padding: 2rem;
 }
 
@@ -60,7 +27,7 @@ h2 {
 }
 
 .image-gallery {
-  background-color: #f9f9f9;
+  background-color: #f0f0f0; /* Lighter gray background for the image gallery section */
   padding: 2rem;
 }
 
@@ -78,3 +45,5 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+/* Add additional styles as needed */

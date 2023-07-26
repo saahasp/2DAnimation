@@ -1,49 +1,105 @@
-/* ... other styles ... */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: Arial, sans-serif;
-  color: #333; /* Change the main text color to a darker shade */
+  line-height: 1.6;
 }
 
-/* ... other styles ... */
-
-.banner {
-  /* ... other styles ... */
-  color: white; /* Set the text color to white */
+header {
+  background-image: url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhdmVzJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: height 0.3s;
 }
 
-.course-details {
-  background-color: #f9f9f9; /* Light gray background for the course details section */
-  padding: 2rem;
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7f7f7f;
+  font-size: 16px;
+  padding: 10px 15px;
+  background-image: url('https://media.tarkett-image.com/large/TH_PROTECTWALL_Tisse_Light_Grey.jpg');
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav a:hover {
+  color: #f0f0f0;
+}
+
+#hero {
+  background-image: url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhdmVzJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-h2 {
-  margin-bottom: 1rem;
-}
-
-.image-gallery {
-  background-color: #f0f0f0; /* Lighter gray background for the image gallery section */
   padding: 2rem;
 }
 
-.image-item {
+section {
   margin-bottom: 2rem;
-}
-
-.image-item img {
-  max-width: 100%;
 }
 
 footer {
   background-color: #333;
-  color: white;
+  color: #fff;
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
-/* Add additional styles as needed */
+#hero {
+  background-image: url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhdmVzJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+section {
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 0px;
+  padding: 2rem;
+}

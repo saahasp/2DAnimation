@@ -108,3 +108,14 @@ section {
 h2 {
   padding-top: 20px;
 }
+
+.image-container {
+  float: left;
+  margin-right: 20px;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}

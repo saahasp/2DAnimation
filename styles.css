@@ -119,8 +119,13 @@ h2 {
   height: auto;
   display: block;
 }
+
 .container::after {
   content: "";
   display: table;
   clear: both;
+}
+
+.text-container {
+  overflow: hidden;
 }
